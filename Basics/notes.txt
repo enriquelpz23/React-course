@@ -1,0 +1,7 @@
+1) Carga el constructor 
+2) Renderiza 
+3) ComponentDidMount (Para llamar Apis)
+4) ComponentDidUpdate (Cada vez que se actualiza un state, nuevas props o forceUpdate) Es como un trigger de un setState.
+
+ForceUpdate es mala practica
+
