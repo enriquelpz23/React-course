@@ -13,6 +13,7 @@ class SignIn extends React.Component {
         }
     }
 
+
     handleSubmit = async (event) => {
         event.preventDefault();
 
@@ -31,6 +32,7 @@ class SignIn extends React.Component {
         const { value, name } = event.target;
         
         this.setState({ [name]: value });
+        
     }
 
     render () {
